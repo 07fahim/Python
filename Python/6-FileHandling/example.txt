@@ -1,7 +1,2 @@
-Hello World
-This is new lineHello World
-This is new line
-Hello World
-This is new lineFirst line
- Second line
- Third line
+Hello world
+This is a new line
