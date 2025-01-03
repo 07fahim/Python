@@ -21,4 +21,11 @@ data = {
 "City": ["New York", "Los Angeles", "Chicago", "Houston"]
 }
 df = pd.DataFrame(data)
+df.to_csv("Sample data.csv")
 st.write(df)
+
+uploded_file=st.file_uploader("Choose a CSV file",type='csv')
+
+if uploded_file is not None:
+    df=pd.read_csv(uploded_file)
+    st.write(df)
